@@ -9,7 +9,7 @@ $sql = "SELECT * FROM pessoas WHERE pess_email = '$login' AND pess_senha = '$sen
 
 $resiltado = mysqli_query($conn, $sql);
 
-if(mysqli_num_rows ($resiltado) > 0 ){
+if(mysqli_num_rows ($resultado) > 0 ){
     session_start();
     $_SESSION['login'] = $login;
 
