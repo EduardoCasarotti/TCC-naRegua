@@ -1,8 +1,8 @@
 <<?php 
-$host = "10.67.22.216"; // ip do servidor do banco
-$usuario = "us_des_222_barbearia"; // nome do usuario do banco 
-$senha = "of272"; // senha para entrar no banco
-$bancoDeDados = "bd_tcc_des_222_barbearia"; // nome do banco 
+$host = "127.0.0.1"; // ip do servidor do banco
+$usuario = "root"; // nome do usuario do banco 
+$senha = ""; // senha para entrar no banco
+$bancoDeDados = "s222_eduardo_teste"; // nome do banco 
 
 // criando uma conexao com o banco de dados Mysql
 
